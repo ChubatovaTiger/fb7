@@ -26,7 +26,7 @@ To debug in IntelliJ Idea, open the 'Maven Projects' tool window (View
 version = "2023.05"
 
 project {
-vcsRoot(Root11)
+vcsRoot(Repo11)
     buildType(Build1)
 }
 
@@ -35,7 +35,7 @@ object Build1 : BuildType({
 
     vcs {
         root(DslContext.settingsRoot)
-root(Root11)
+root(Repo11)
     }
 })
 
